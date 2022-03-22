@@ -1,28 +1,9 @@
 #include <iostream>
-#include <string>
 using namespace std;
-
-int pal(string s){
-    int le = s.length();
-    if (le) == 0){
-        return;
-    }
-
-    if s[0]==s[le-1]{
-        return pal(s);
-    }
-
-    else{
-        return ;
-    }
-    return 0;
-}
-
 int main() {
-    string str ;
-    cin>> str;
-    pal(str)
-
+    string a = "hello hii";
+    int b = a.length();
+    a = a.substr(1,b-2);
+    cout<<a<<" "<<b; //ello 9
     return 0;
 }
-
